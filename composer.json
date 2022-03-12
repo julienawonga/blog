@@ -1,0 +1,19 @@
+{
+    "name": "julien/geekscity",
+    "description": "ceci est mon blog bas\u0000 sur un template html css",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Geekscity\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "julien awon'ga",
+            "email": "julienawon@gmail.com"
+        }
+    ],
+    "require": {
+        "altorouter/altorouter": "^2.0"
+    }
+}
