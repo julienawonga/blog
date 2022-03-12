@@ -32,7 +32,7 @@
 <div class="container">
 	<!-- Begin Logo -->
 	<a class="navbar-brand" href="index.html" style="font-size : 2rem;">
-          <i class="fa-solid fa-bug-slash"></i>GEEK'S CITY
+          <i class="fa-solid fa-bug-slash" style=" color: #ff0000"></i>GEEK'S CITY
 	</a>
 	<!-- End Logo -->
 	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -75,11 +75,11 @@
         <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
           <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
           <ul class="list-inline mt-4">
-            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-            <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="github"><i class="fa-brands fa-github fa-2x" style="color : #4078c0;"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa-brands fa-twitter fa-2x" style="color : #00acee;"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="youtub"><i class="fa-brands fa-youtube fa-2x" style="color : red;"></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa-brands fa-instagram fa-2x" style="color : #9c1759;"></i></i></a></li>
+            <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa-brands fa-facebook fa-2x" style="color : blue;"></i></a></li>
           </ul>
         </div>
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
@@ -93,11 +93,11 @@
         <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Pages</h6>
           <ul class="list-unstyled mb-0">
-            <li class="mb-2"><a href="#" class="text-muted">Acceuil</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Categories</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">Contacts</a></li>
-            <li class="mb-2"><a href="#" class="text-muted">A propos</a></li>
-          </ul>
+            <li class="mb-2"><a href="<?= $router->url('home') ?>" class="text-muted">Acceuil</a></li>
+            <li class="mb-2"><a href="<?= $router->url('category') ?>" class="text-muted">Categories</a></li>
+            <li class="mb-2"><a href="<?= $router->url('contact') ?>" class="text-muted">Contacts</a></li>
+            <li class="mb-2"><a href="<?= $router->url('about') ?>" class="text-muted">A propos</a></li>
+          </u>
         </div>
         <div class="col-lg-4 col-md-6 mb-lg-0">
           <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
@@ -117,7 +117,7 @@
     <!-- Copyrights -->
     <div class="bg-light pb-4">
       <div class="container text-center">
-        <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+        <p class="text-muted mb-0 py-2">© <?= date('Y')?> <a href="#">Geek's city</a> All rights reserved.</p>
       </div>
     </div>
   </footer>

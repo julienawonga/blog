@@ -34,7 +34,7 @@
 						<div class="metafooter">
 							<div class="wrapfooter">
 								<span class="meta-footer-thumb">
-								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
+								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
 								</span>
 								<span class="author-meta">
 								<span class="post-name"><a href="author.html">Steve</a></span><br/>
@@ -65,7 +65,7 @@
 						<div class="metafooter">
 							<div class="wrapfooter">
 								<span class="meta-footer-thumb">
-								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
+								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
 								</span>
 								<span class="author-meta">
 								<span class="post-name"><a href="author.html">Jane</a></span><br/>
@@ -96,7 +96,7 @@
 						<div class="metafooter">
 							<div class="wrapfooter">
 								<span class="meta-footer-thumb">
-								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
+								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
 								</span>
 								<span class="author-meta">
 								<span class="post-name"><a href="author.html">Mary</a></span><br/>
@@ -127,7 +127,7 @@
 						<div class="metafooter">
 							<div class="wrapfooter">
 								<span class="meta-footer-thumb">
-								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/e56154546cf4be74e393c62d1ae9f9d4?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
+								<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
 								</span>
 								<span class="author-meta">
 								<span class="post-name"><a href="author.html">Sal</a></span><br/>

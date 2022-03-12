@@ -9,4 +9,5 @@
             ->get('/categories/[*:slug]-[i:id]', 'category/show', 'category-show')
             ->get('/contact', 'others/contact', 'contact')
             ->get('/bookmarks', 'others/bookmarks', 'bookmarks')
+            ->get('/about', 'others/about', 'about')
             ->run();
