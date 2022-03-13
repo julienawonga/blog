@@ -39,7 +39,7 @@
 
         public function run(): self{
             $match = $this->router->match();
-            if ($match ){
+            if ($match){
                 $view = $match['target'];
                 $params = $match['params'];
                 $router = $this;
@@ -51,13 +51,13 @@
                 require $this->viewPath.DIRECTORY_SEPARATOR . $layout. '.php';
                 return $this;
             }else{
+                $router = $this;
                 $layout = 'layouts/default';
                 ob_start();
                 require $this->viewPath.DIRECTORY_SEPARATOR . 'others/404.php';
                 $content = ob_get_clean();
                 require $this->viewPath.DIRECTORY_SEPARATOR . $layout. '.php';
                 return $this;
-
             }
            
         }

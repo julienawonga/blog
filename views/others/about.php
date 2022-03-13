@@ -13,7 +13,7 @@
 						<a target="_blank" href="https://twitter.com/wowthemesnet" class="btn follow">Follow</a>
 					</div>
 					<div class="col-md-2 col-xs-12">
-						<img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Sal">
+						<img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Julien">
 					</div>
 				</div>
 			</div>

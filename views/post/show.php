@@ -44,10 +44,10 @@
 				<!-- Begin Top Meta -->
 				<div class="row post-top-meta">
 					<div class="col-md-2">
-						<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Sal"></a>
+						<a href="author.html"><img class="author-thumb" src="https://www.gravatar.com/avatar/09a7c07b19f2ed8d5ba27c061021991f?s=250&amp;d=mm&amp;r=x" alt="Julien"></a>
 					</div>
 					<div class="col-md-10">
-						<a class="link-dark" href="author.html">Sal</a><a href="#" class="btn follow">Follow</a>
+						<a class="link-dark" href="author.html">Julien</a><a href="#" class="btn follow">Follow</a>
 						<span class="author-description">Founder of WowThemes.net and creator of <b>"Mediumish"</b> theme that you're currently previewing. Developing professional premium themes, templates, plugins, scripts since 2012.</span>
 						<span class="post-date">22 July 2017</span><span class="dot"></span><span class="post-read">6 min read</span>
 					</div>
