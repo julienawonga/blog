@@ -31,8 +31,8 @@
 </button>
 <div class="container">
 	<!-- Begin Logo -->
-	<a class="navbar-brand" href="index.html" style="font-size : 2rem;">
-          <i class="fa-solid fa-bug-slash" style=" color: #ff0000"></i>GEEK'S CITY
+	<a class="navbar-brand" href="#" style="font-size : 2rem;">
+      <i class="fa-solid fa-bug-slash" style=" color: #ff0000"></i>GEEK'S CITY
 	</a>
 	<!-- End Logo -->
 	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
