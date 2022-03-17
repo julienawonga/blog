@@ -21,7 +21,7 @@
 
 
             //admin
-            ->get('/admin', 'admin/login', 'login')
+            ->get('/admin', 'admin/login', 'admin-home')
 
 
             //Routes for Articles
