@@ -3,22 +3,33 @@
      <!-- MAIN CONTENT -->
      <div class="main-content">
           <div class="container-fluid">
-                    <form>
+                    <form style="display: flex; flex-direction: column;">
                          <!-- Text input -->
                          <div class="mb-5">
-                              <label class="form-label" for="form6Example3">Titre</label>
-                              <input type="text" id="form6Example3" class="form-control" />
+                              <label class="form-label" for="form6Example3" style="font-size: 2rem;">Titre</label>
+                              <input type="text" id="form6Example3" class="form-control" style="width: 100%; height: 40px;" />
+                         </div>
+
+                          <!-- Selection -->
+                          <div class="mb-5">
+                              <label class="form-label" for="form6Example4" style="font-size: 2rem;">Selection de la catégory</label></br>
+                              <select class="form-select form-select-sm" aria-label=".form-select-sm example" style="width: 100%; height: 40px;">
+                                   <option selected>Open this select menu</option>
+                                   <option value="1">One</option>
+                                   <option value="2">Two</option>
+                                   <option value="3">Three</option>
+                              </select>
                          </div>
 
                          <!-- Text input -->
                          <div class="mb-5">
-                              <label class="form-label" for="form6Example4">Image brand</label>
+                              <label class="form-label" for="form6Example4" style="font-size: 2rem;">Image brand</label>
                               <input type="file" id="form6Example4" class="form-control" />
                          </div>
 
                          <!-- Message input -->
                          <div class="mb-5">
-                              <label class="form-label" for="form6Example7">Contenu</label>
+                              <label class="form-label" for="form6Example7" style="font-size: 2rem;">Contenu</label>
                               <textarea class="form-control" name="myTextarea" id="myTextarea" rows="4"></textarea>
                          </div>
 
