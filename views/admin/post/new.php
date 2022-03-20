@@ -1,13 +1,27 @@
+<?php 
+
+use geekscity\Database\Db;
+use geekscity\Table\PostTable;
+
+if(isset($_POST['submit'])){
+     $pdo = Db::getInstance();
+     $post = new PostTable($pdo);
+     $post->CreatePost($_POST['title'], "mon grand", $_POST['myTextarea'], 8);
+
+
+}
+
+?>
 <!-- MAIN -->
 <div class="main">
      <!-- MAIN CONTENT -->
      <div class="main-content">
           <div class="container-fluid">
-                    <form style="display: flex; flex-direction: column;">
+                    <form style="display: flex; flex-direction: column;" method="GET">
                          <!-- Text input -->
                          <div class="mb-5">
                               <label class="form-label" for="form6Example3" style="font-size: 2rem;">Titre</label>
-                              <input type="text" id="form6Example3" class="form-control" style="width: 100%; height: 40px;" />
+                              <input type="text" id="form6Example3" class="form-control" style="width: 100%; height: 40px;" name="title"/>
                          </div>
 
                           <!-- Selection -->
